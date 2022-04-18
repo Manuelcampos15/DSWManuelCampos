@@ -1,0 +1,28 @@
+header{
+    background-color: #125B50;
+    text-align: center;
+    padding: 40px;
+}
+nav{
+    background-color: #F8B400;
+    color: black;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+article{
+    background-color: #FAF5E4;
+    grid-column: 1/4;
+    
+}
+aside{
+    background-color: #F2F2F2;
+    padding: 20px;
+    grid-column: 4/5;
+}
+footer{
+    background-color: #125B50;
+    color: black;
+    padding: 10px;
+}
